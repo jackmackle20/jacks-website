@@ -1,0 +1,8 @@
+/* styles.css */
+
+body.container {
+    background-color: #0b273d;
+    font-family: 'Courier New', monospace;
+    color: white;
+    /* Other styles */
+}
