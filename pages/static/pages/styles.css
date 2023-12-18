@@ -2,7 +2,15 @@
 
 body.container {
     background-color: #0b273d;
-    font-family: 'Courier New', monospace;
+    font-family: 'Andale Mono', monospace;
     color: white;
     /* Other styles */
+}
+
+.header-with-padding {
+    padding: 20px; 
+}
+
+.paragraph-with-padding {
+    padding-left: 20px;
 }
