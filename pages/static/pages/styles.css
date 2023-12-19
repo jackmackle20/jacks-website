@@ -14,3 +14,7 @@ body.container {
 .paragraph-with-padding {
     padding-left: 20px;
 }
+
+.custom-link {
+    color: #05883b
+}

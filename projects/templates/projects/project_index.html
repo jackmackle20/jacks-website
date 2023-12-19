@@ -1,0 +1,13 @@
+<!-- pages/templates/pages/project_index.html -->
+
+{% extends "base.html" %}
+
+{% block page_content %}
+    <h1 class="header-with-padding">Projects</h1>
+    
+    {% for project in projects %}
+        <h5 class="paragraph-with-padding">{{ project.title }}</h5>
+        <p class="paragraph-with-padding">{{ project.description }}</p>
+        {% endfor %}
+
+{% endblock page_content %}
