@@ -1,0 +1,21 @@
+<!-- pages/templates/pages/project_detail_1.html -->
+
+{% extends "base.html" %}
+
+{% block page_content %}
+    <h1 class="header-with-padding">{{ project.title }}</h1>
+    <p class="paragraph-with-padding">
+        In early 2021 I made my first investment in the uranium sector following some advice from a friend. <br>
+        Overtime, I developed a lot of interest for the commodity and the nuclear space in general. <br>
+        I found Twitter (X), to be the best place to stay in the know. <br>
+    </p>
+    <p class="paragraph-with-padding">
+        I wanted to contribute to the uranium community and work on some data science skills. <br>
+        So I created a bot that scraped posts about uranium and output a daily average sentiment value. <br>
+        I used VADER, a sentiment analysis tool and ran the bot through a VM on Digital Ocean. <br>
+    </p>
+    <p class="paragraph-with-padding">
+        Scraping X used to be simple through the API, but Elon has since cracked down on that and bots in general. <br>
+        Thus, it is no longer functional, but you can explore the results I was able to capture here:
+    </p>
+{% endblock page_content %}
