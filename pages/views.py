@@ -2,4 +2,7 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'pages/home.html', {})
-# Create your views here.
+
+def resume(request):
+    return render(request, 'pages/resume.html')
+
