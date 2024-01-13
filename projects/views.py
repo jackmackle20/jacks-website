@@ -52,10 +52,3 @@ def project_detail(request, project_id):
     else:
         context = {'project': project}
     return render(request, template_name, context)
-
-"""
-def project_detail(request, project_id):
-    project = Project.objects.get(pk=project_id)
-    template_name = f'pages/project_detail_{project_id}.html'
-    return render(request, template_name, {'project': project})
-"""
