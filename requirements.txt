@@ -12,6 +12,7 @@ Django==5.0
 executing==2.0.1
 fastjsonschema==2.19.0
 fonttools==4.47.0
+gunicorn==21.2.0
 ipykernel==6.27.1
 ipython==8.19.0
 jedi==0.19.1
